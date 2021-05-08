@@ -35,5 +35,5 @@ jobs:
       with:
         app-name: 'yallab'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a37d29d6dac844c6974512c879c33f55 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a6b07d399bbf4e80906374367ce2e006 }}
         package: '.\app.zip'
